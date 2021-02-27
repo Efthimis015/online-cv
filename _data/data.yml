@@ -44,12 +44,15 @@ sidebar:
 
 career-profile:
     title: UNIVERSITY UNDERGRAD
-    summary: Joined the Department of Informatics @Ionian University in October of 2018. 
+    summary: |
+      Joined the Department of Informatics [@Ionian University](https://ionio.gr/en/) in October of 2018. 
+     
       
 
 
 projects:
     title: Projects
+    intro: >
     
       
     assignments:

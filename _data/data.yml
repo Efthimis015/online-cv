@@ -14,11 +14,16 @@ sidebar:
     # Sidebar links
     email: p18tzia@ionio.gr
     phone: 6945806040
+    linkedin:
     github: Efthimis015
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@runth3orun'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
     
-    
-    
-   
      languages:
       - idiom: Greek
         level: Native
@@ -48,27 +53,17 @@ career-profile:
       Joined the Department of Informatics [@Ionian University](https://ionio.gr/en/) in October of 2018. 
      
       
-
-
 projects:
     title: Projects
     intro: >
-    
-      
-    assignments:
-      - title: Sor Algorithm
-         tagline: "Research for Sor's Algorithm in Quantum Mechanics"
+     Sor Algorithm "Research for Sor's Algorithm in Quantum Mechanics"
          
-      - title: Caesar Algorithm
-         tagline: "Research for Caesar's Algorithm"
+     Caesar Algorithm "Research for Caesar's Algorithm"
          
-      - title: Dino Bytes
-         tagline: "Game creation in Multimedia class"
+     Dino Bytes "Game creation in Multimedia class"
          
 
       
-
-
 skills:
     title: Skills &amp; Proficiency
 

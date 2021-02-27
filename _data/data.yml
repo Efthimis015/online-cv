@@ -31,6 +31,9 @@ sidebar:
 
       - idiom: English
         level: Advanced
+        
+      - idiom: German
+        level: Beginner
 
 
     interests:
@@ -54,11 +57,19 @@ career-profile:
 projects:
     title: Projects
     intro: >
-     Sor Algorithm "Research for Sor's Algorithm in Quantum Mechanics"
-         
-     Caesar Algorithm "Research for Caesar's Algorithm"
-         
-     Dino Bytes "Game creation in Multimedia class"
+      
+    assignments:
+      - title: Sor Algorithm
+        link: "#hook"
+        tagline: "Research for Sor's Algorithm in Quantum Mechanics"
+
+      - title: Caesar Algorithm
+        link: "#"
+        tagline: "Research for Caesar's Algorithm in Algorithms."
+
+      - title: DINO BYTES
+        link: "#"
+        tagline: "Game creation in Multimedia class"
          
 
       

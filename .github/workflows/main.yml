@@ -1,0 +1,30 @@
+name: CV2PDF
+
+on: 
+  page_build:
+    branches: [gh-pages]
+  
+jobs:
+  convert:
+    runs-on: ubuntu-18.04
+    steps:  
+      - uses: actions/checkout@v2
+        with:
+         persist-credentials: false
+         fetch-depth: 0
+      - name: Convert 
+        uses: docker://pandoc/latex:2.13
+        with:
+          args: "https://efthimis015.github.io/online-cv/?fbclid=IwAR2ap_60aPqfjW8_SpGq_MOIdDWxIGBq4xjOLjxU798GtGjkZLhGD6079yk#hook -f html-native_divs -o cv.pdf --pdf-engine=xelatex"
+      - name: Commit pdf
+        run: |
+          git config --global user.name 'Tziallas Efthimios'
+          git config --global user.email 'Efthimis015@users.noreply.github.com'
+          git add -A
+          git add .
+          git commit -m "Added PDF -auto action"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
